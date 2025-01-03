@@ -1,0 +1,55 @@
+convert liter to gallon
+import java.util.Scanner;
+public class Main
+{
+	public static void main(String[] args) {
+	    Scanner obj=new Scanner(System.in);
+	    float liter=obj.nextFloat();
+	    float gallon=(0.26417f * liter);
+	    System.out.printf("%.2fgallon",gallon);
+		
+	}
+}
+
+
+
+convert inches to foot
+import java.util.Scanner;
+public class Main
+{
+	public static void main(String[] args) {
+	    Scanner obj=new Scanner(System.in);
+	    float inches=obj.nextFloat();
+	    float foot=(0.26417f * inches);
+	    System.out.printf("%.2ffoot",foot);
+		
+	}
+}
+
+
+temperature in  Fahrenheit , convert it into Celsius
+import java.util.Scanner;
+public class Main
+{
+	public static void main(String[] args) {
+	    Scanner obj=new Scanner(System.in);
+	    float far=obj.nextFloat();
+	    float celsius=(far-32)*5/9f;
+	    System.out.printf("%.2fcelsius",celsius);
+		
+	}
+}
+
+
+kilometer to miles
+ import java.util.Scanner;
+public class Main
+{
+	public static void main(String[] args) {
+	    Scanner obj=new Scanner(System.in);
+	    float km=obj.nextFloat();
+	    float miles=km/1.6f;
+	    System.out.printf("%.2fmiles",miles);
+		
+	}
+}
