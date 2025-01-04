@@ -86,7 +86,7 @@ public class Main
 	a=abc.nextInt();
 	if(a%400==0)
 	System.out.println("is leap year");
-        else if(a%100==0);
+        else if(a%100==0)
         system.out.println("not leap year");
         else if(a%4==0)
         system.out.println("leapyear");
